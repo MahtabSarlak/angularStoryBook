@@ -17,9 +17,3 @@ const Template: Story<ButtonComponent> = (args: ButtonComponent) => ({
   props: args,
   template: `<button met-button><span>test</span></button>`,
 });
-
-
-export const Primary = Template.bind({});
-Primary.args = {
-  ...Primary.args
-}

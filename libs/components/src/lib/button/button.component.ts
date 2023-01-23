@@ -1,4 +1,4 @@
-import { Component, NgModule, Output } from '@angular/core';
+import {Component, Input, NgModule, Output} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EventEmitter } from 'stream';
 
@@ -13,7 +13,7 @@ import { EventEmitter } from 'stream';
 
 })
 export class ButtonComponent {
- 
+
   // @Output() clickEvent = new EventEmitter();
 
   // greet(e: any){
